@@ -586,6 +586,10 @@ img {
   display: flex;
 }
 
+.star {
+  margin-right: 2px;
+}
+
 .offer {
   font-size: 10px;
   line-height: 13px;
@@ -736,6 +740,12 @@ img {
 @media (max-width: 320px) {
   .container {
     max-width: 280px;
+  }
+  .hotel {
+    padding-top: 0;
+  }
+  .stars {
+    margin-right: 13px;
   }
 }
 /*# sourceMappingURL=style.css.map */
