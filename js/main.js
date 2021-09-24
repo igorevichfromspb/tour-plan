@@ -4,8 +4,8 @@ const swiper = new Swiper(".swiper", {
 
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-button__next",
-    prevEl: ".swiper-button__prev",
+    nextEl: ".swiper-button--next",
+    prevEl: ".swiper-button--prev",
   },
   keyboard: {
     enabled: true,
