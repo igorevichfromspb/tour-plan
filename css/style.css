@@ -685,7 +685,7 @@ img {
   background-image: url(../img/arrow-prev.svg);
 }
 
-.swiper::after {
+.swiper-slide::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -696,7 +696,7 @@ img {
   right: 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 122, 223, 0.48)), to(rgba(255, 255, 255, 0.128)));
   background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
-  z-index: 10;
+  z-index: 1;
 }
 
 .booking {
@@ -706,6 +706,7 @@ img {
   width: 350px;
   min-height: 210px;
   padding: 28px;
+  font-family: Nunito;
 }
 
 .booking__info {
@@ -1010,8 +1011,37 @@ img {
   .hotel {
     padding-top: 0;
   }
+  .hotel-right {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .hotel-info {
+    padding-bottom: 38px;
+  }
   .stars {
     margin-right: 13px;
+  }
+  .slider {
+    height: 179px;
+    margin-bottom: 0;
+  }
+  .swiper-button {
+    width: 11px;
+    height: 11px;
+    padding: 2px 3px;
+  }
+  .swiper-button--prev {
+    left: 6px;
+  }
+  .swiper-button--next {
+    right: 6px;
+  }
+  .booking {
+    height: 210px;
+  }
+  .map {
+    height: 179px;
   }
 }
 /*# sourceMappingURL=style.css.map */
