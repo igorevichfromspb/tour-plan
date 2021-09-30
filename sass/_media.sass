@@ -12,6 +12,9 @@
     .container,
     .newsletter-wrapper
         max-width: 700px
+    .newsletter
+        padding-top: 92px
+        padding-bottom: 93px   
     .logo
         width: 132px    
     .navbar
@@ -51,6 +54,12 @@
             &__img
                 width: 100% 
     .reviews
+        &__title
+            margin-bottom: 50px
+            font-style: normal
+            font-weight: bold
+            font-size: 30px
+            line-height: 38px
         &-slider
             &__item
                 max-width: 580px                                 
@@ -106,11 +115,14 @@
     .map
         width: 100%
     .newsletter
+        padding-top: 76px
         &-wrapper
             max-width: 576px
             width: 92%
             flex-direction: column  
             align-items: flex-start
+        &-title
+            margin-bottom: 37px
     .reviews
         &-slider
             &__item
@@ -145,9 +157,12 @@
         &__title
             margin-bottom: 37px    
     .subscribe
-        width: 100%           
+        width: 100%  
+    .reviews
+        padding-top: 46px                
 @media (max-width: 320px)
-    .container
+    .container,
+    .newsletter-wrapper
         max-width: 280px
     .hotel
         padding-bottom: 20px
@@ -158,9 +173,18 @@
     .newsletter
         width: 320px
         height: 319px
+        &-title
+            font-style: normal
+            font-weight: 300
+            font-size: 20px
+            line-height: 25px
+            &__strong
+                font-style: normal
+                font-weight: 600
+                font-size: 30px
+                line-height: 38px
     .subscribe
-        width: 280px
-        margin-left: 7px            
+        width: 280px           
     .stars 
         margin-right: 13px
     .slider
@@ -180,6 +204,7 @@
     .map
         height: 179px
     .reviews
+        padding-top: 40px
         &-slider
             &__profile
                 margin-bottom: 33px
@@ -191,7 +216,13 @@
             &__item
                 width: 281px
         &__title
-            margin-bottom: 40px           
+            padding-left: 20px
+            padding-right: 20px
+            font-style: normal
+            font-weight: bold
+            font-size: 18px
+            line-height: 23px
+            margin-bottom: 42px           
 
 
 

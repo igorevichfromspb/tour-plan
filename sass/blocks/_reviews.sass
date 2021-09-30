@@ -10,7 +10,9 @@
         margin-top: 0
         margin-bottom: 70px
     &-slider
+        
         position: relative
+
         &__item
             position: relative
             display: flex
@@ -41,7 +43,7 @@
                 background-repeat: no-repeat
         &__button
             position: absolute
-            top: 50%
+            top: 40%
             transform: translateY(-50%)   
             width: 30px
             height: 30px
@@ -63,7 +65,7 @@
             flex-direction: column
             align-items: center
             margin-top: -45px
-            margin-bottom: 30px
+            margin-bottom: 33px
         &__avatar
             width: 90px
             height: 90px
@@ -76,6 +78,7 @@
             font-size: 12px
             line-height: 15px 
             color: $primary
+            margin: 0
             margin-bottom: 10px
         &__date
             font-style: normal
@@ -88,9 +91,13 @@
             align-items: center
         &__text
             max-width: 537px
+            max-height: 150px
             font-style: normal
             font-weight: normal
             font-size: 12px
             line-height: 160%
             text-align: justify
-            margin: auto                    
+            margin: 0
+            margin-right: 33px
+            margin-left: 37px
+            overflow-y: auto        

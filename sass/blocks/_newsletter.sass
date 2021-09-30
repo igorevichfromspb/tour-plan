@@ -24,6 +24,7 @@
         max-width: 731px
         margin: auto  
     &-title
+        max-width: 242px
         color: $light
         font-style: normal
         font-weight: 300
@@ -53,12 +54,19 @@
         font-weight: 300
         font-size: 14px
         line-height: 18px
+        &::placeholder
+            color: #BDBDBD
     &__button
         position: absolute
-        min-width: 65px
+        width: 65px
         right: 0
         top: 0
         height: 100%
         border: none
         background-color: $primary
         color: $light
+        font-weight: bold
+        font-size: 12px
+        cursor: pointer
+        padding: 6px
+        
