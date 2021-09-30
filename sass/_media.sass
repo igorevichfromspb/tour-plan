@@ -57,6 +57,7 @@
             &__img
                 width: 100% 
     .reviews
+        padding-bottom: 60px
         &__title
             margin-bottom: 50px
             font-style: normal
@@ -64,8 +65,14 @@
             font-size: 30px
             line-height: 38px
         &-slider
+            &__text
+                width: 455px
             &__item
-                max-width: 580px 
+                max-width: 580px
+                &::after, &::before
+                    display: none
+            &__button
+                top: 50%        
     .activities
         &-wrapper
             flex-wrap: wrap
@@ -74,7 +81,8 @@
     .card
         width: 339px
         height: 255px
-
+        &__title
+            width: 200px  
 @media (max-width: 767px)
     .container
         max-width: 576px
@@ -134,30 +142,29 @@
             flex-direction: column  
             align-items: flex-start
         &-title
-            margin-bottom: 37px
+            margin-bottom: 20px
     .reviews
-        padding-bottom: 60px
         &-slider
             &__item
                 padding: 0 30px 30px
-                &::after, &::before
-                    display: none
+            &__text
+                width: 455px
             &__button
                 top: 30px
                 &--prev
                     left: 50%
-                    margin-left: -65px
+                    margin-left: -90px
                     transform: translate(-50%, 0)
                 &--next
                     right: 50%
                     transform: translate(50%, 0)
-                    margin-right: -65px
+                    margin-right: -90px
     .activities
-        padding-top: 60px
+        padding-top: 40px
         padding-bottom: 70px                
     .card
         width: 48%
-        height: 255px                
+        height: 255px              
 @media (max-width: 576px)
     .container
         width: 92% 
@@ -178,7 +185,14 @@
     .subscribe
         width: 100%  
     .reviews
-        padding-top: 46px  
+        padding-top: 46px 
+        &-slider
+            &__item
+                width: 100%
+                height: 438px
+            &__text
+                width: 100%
+                height: 100%    
     .card
         width: 100%                  
 @media (max-width: 320px)
@@ -238,6 +252,8 @@
             &__item
                 width: 281px
                 padding-bottom: 36px
+            &__text
+                text-align: left    
         &__title
             padding-left: 20px
             padding-right: 20px
@@ -252,7 +268,16 @@
             font-weight: bold
             font-size: 18px
             line-height: 23px
-            margin-bottom: 36px                 
+            margin-bottom: 36px
+    .card
+        &__two
+            order: 1
+        &__four
+            order: 1
+        &__three
+            margin: 0
+            margin-bottom: 28px       
+                                     
 
 
 

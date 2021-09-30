@@ -7,16 +7,16 @@ const swiper = new Swiper(".swiper", {
     nextEl: ".swiper-button--next",
     prevEl: ".swiper-button--prev",
   },
-  keyboard: {
-    enabled: true,
-    onlyInViewport: false,
-  },
-  autoplay: {
-    delay: 3000,
-    pauseOnMouseEnter: true,
-    disableOnInteraction: false,
-  },
-  effect: "coverflow",
+  // keyboard: {
+  //   enabled: true,
+  //   onlyInViewport: false,
+  // },
+  // autoplay: {
+  //   delay: 3000,
+  //   pauseOnMouseEnter: true,
+  //   disableOnInteraction: false,
+  // },
+  // effect: "coverflow",
 });
 
 const reviewsSlider = new Swiper(".reviews-slider", {
