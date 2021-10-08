@@ -366,7 +366,7 @@
               class="card__image"
             />
             <h3 class="card__title">The curious corner of&nbsp;chamarel</h3>
-            <button class="card__button">Book Now</button>
+            <button data-toggle="modal" class="card__button">Book Now</button>
           </div>
           <div
             class="card activities__card card-two"
@@ -381,7 +381,7 @@
               class="card__image"
             />
             <h3 class="card__title">Gymkhana club golf course</h3>
-            <button class="card__button">Book Now</button>
+            <button data-toggle="modal" class="card__button">Book Now</button>
           </div>
           <div
             class="card activities__card card-three"
@@ -398,7 +398,7 @@
             <h3 class="card__title">
               Tamarind falls hiking trip&nbsp;-&nbsp;full day
             </h3>
-            <button class="card__button">Book Now</button>
+            <button data-toggle="modal" class="card__button">Book Now</button>
           </div>
           <div
             class="card activities__card card-four"
@@ -413,7 +413,7 @@
               class="card__image"
             />
             <h3 class="card__title">The blue marine discovery quest</h3>
-            <button class="card__button">Book Now</button>
+            <button data-toggle="modal" class="card__button">Book Now</button>
           </div>
         </div>
       </div>
@@ -632,48 +632,50 @@
     <div class="modal">
       <div class="modal__overley"></div>
       <div class="modal__dialog">
-        <a href="#" class="modal__close">
-          <img src="img/close.svg" alt="icon: close" />
-        </a>
-        <h3 class="modal__title modal__title--mb-3">Booking</h3>
-        <form action="send.php" method="POST" class="modal__form form">
-          <div class="modal__input-group">
-            <input
-              type="text"
-              class="input modal__input form-1"
-              placeholder="Your Full Name*"
-              name="name"
-              required
-            />
-          </div>
-          <div class="modal__input-group">
-            <input
-              type="tel"
-              class="input modal__input phone form-1"
-              placeholder="Phone Number*"
-              name="phone"
-              required
-            />
-          </div>
-          <div class="modal__input-group">
-            <input
-              type="email"
-              class="input modal__input form-1"
-              placeholder="E-mail*"
-              name="email"
-              required
-            />
-          </div>
-          <textarea
-            class="message modal__message"
-            placeholder="Message"
-            name="message"
-          ></textarea>
-          <div class="modal__button-wrapper">
-            <button class="button modal__button" type="submit">Send</button>
-            <span class="modal__info">* Required Fields</span>
-          </div>
-        </form>
+        <div class="modal__content">
+          <a href="#" class="modal__close">
+            <img src="img/close.svg" alt="icon: close" />
+          </a>
+          <h3 class="modal__title modal__title--mb-3">Booking</h3>
+          <form action="send.php" method="POST" class="modal__form form">
+            <div class="modal__input-group">
+              <input
+                type="text"
+                class="input modal__input form-1"
+                placeholder="Your Full Name*"
+                name="name"
+                required
+              />
+            </div>
+            <div class="modal__input-group">
+              <input
+                type="tel"
+                class="input modal__input phone form-1"
+                placeholder="Phone Number*"
+                name="phone"
+                required
+              />
+            </div>
+            <div class="modal__input-group">
+              <input
+                type="email"
+                class="input modal__input form-1"
+                placeholder="E-mail*"
+                name="email"
+                required
+              />
+            </div>
+            <textarea
+              class="message modal__message"
+              placeholder="Message"
+              name="message"
+            ></textarea>
+            <div class="modal__button-wrapper">
+              <button class="button modal__button" type="submit">Send</button>
+              <span class="modal__info">* Required Fields</span>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
     <script src="js/jquery-3.6.0.min.js"></script>
