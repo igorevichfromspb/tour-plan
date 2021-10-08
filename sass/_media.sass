@@ -368,7 +368,16 @@
                 grid-column: 1
                 grid-row: 2
         &__button
-            order: 2 
+            order: 2
+    .modal
+        &__dialog 
+            padding: 20px
+            width: 92%
+        &__button
+            &-wrapper
+                flex-direction: column-reverse
+        &__info
+            margin-bottom: 10px 
 @media (max-width: 320px)
     .container,
     .newsletter-wrapper
