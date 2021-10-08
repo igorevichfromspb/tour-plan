@@ -395,7 +395,7 @@ label.form-1 {
   color: #EC1F46;
   font-size: 12px;
   position: absolute;
-  bottom: 16px;
+  bottom: 1px;
   left: 4px;
   z-index: 200;
 }

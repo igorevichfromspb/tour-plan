@@ -10,13 +10,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="navbar navbar-mobile navbar-mobile_fixed">
       <div class="container">
         <div class="navbar-top">
-          <a href="#" class="logo">
+          <a href="#" class="logo" data-aos="zoom-in" data-aos-duration="700">
             <img
               src="img/horizontal-logo.svg"
               alt="Logo: Best Tour Plan"
@@ -150,7 +151,7 @@
         </div>
         <div class="hotel-grid">
           <div class="slider">
-            <div class="swiper">
+            <div class="swiper" data-aos="flip-left" data-aos-delay="300">
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
                 <!-- Slides -->
@@ -196,7 +197,7 @@
             </div>
           </div>
           <div class="hotel-right">
-            <div class="booking">
+            <div class="booking" data-aos="flip-left" data-aos-delay="500">
               <div class="booking__info">
                 <div class="booking__price">
                   <span class="booking__start">price starts as</span>
@@ -233,7 +234,7 @@
                 View Other Options
               </button>
             </div>
-            <div class="map">
+            <div class="map" data-aos="flip-left" data-aos-delay="700">
               <iframe
                 class="map-image"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8135.66820080984!2d98.28761611555156!3d7.891839330230694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30503b7bfcd9f903%3A0xf7065fac1e3d7c48!2sDoubleTree%20by%20Hilton%20Phuket%20Banthai%20Resort!5e0!3m2!1sru!2sru!4v1632500797145!5m2!1sru!2sru"
@@ -352,7 +353,12 @@
       <div class="container">
         <h2 class="activities__title">Other Activities</h2>
         <div class="activities-wrapper">
-          <div class="card activities__card card-one">
+          <div
+            class="card activities__card card-one"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="300"
+          >
             <img
               src="img/activity-1.jpg"
               alt="The curious corner 
@@ -362,7 +368,12 @@
             <h3 class="card__title">The curious corner of&nbsp;chamarel</h3>
             <button class="card__button">Book Now</button>
           </div>
-          <div class="card activities__card card-two">
+          <div
+            class="card activities__card card-two"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
             <img
               src="img/activity-2.jpg"
               alt="Gymkhana club golf
@@ -372,7 +383,12 @@
             <h3 class="card__title">Gymkhana club golf course</h3>
             <button class="card__button">Book Now</button>
           </div>
-          <div class="card activities__card card-three">
+          <div
+            class="card activities__card card-three"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="700"
+          >
             <img
               src="img/activity-3.jpg"
               alt="Tamarind falls hiking
@@ -384,7 +400,12 @@
             </h3>
             <button class="card__button">Book Now</button>
           </div>
-          <div class="card activities__card card-four">
+          <div
+            class="card activities__card card-four"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="900"
+          >
             <img
               src="img/activity-4.jpg"
               alt="The blue marine discovery
@@ -400,7 +421,11 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-wrapper">
-          <a class="logo footer__logo" href="#"
+          <a
+            class="logo footer__logo"
+            href="#"
+            data-aos="zoom-in"
+            data-aos-duration="700"
             ><img src="img/vertical-logo.svg" alt="Logo: Best Tour Plan"
           /></a>
           <div class="footer__list footer__categories">
@@ -655,6 +680,7 @@
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
