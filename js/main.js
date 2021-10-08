@@ -74,7 +74,6 @@ $(document).ready(function () {
       },
     },
   });
-
   $(".newsletter__subscribe").validate({
     errorClass: "form-2",
     messages: {
@@ -84,7 +83,6 @@ $(document).ready(function () {
       },
     },
   });
-
   $(".footer__form").validate({
     errorClass: "form-3",
     messages: {
