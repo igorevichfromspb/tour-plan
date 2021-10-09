@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  const swiper = new Swiper(".swiper", {
+  const swiper = new Swiper(".hotel-swiper", {
     // Optional parameters
     loop: true,
 

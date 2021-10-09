@@ -9,14 +9,17 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&family=Nunito:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="navbar navbar__mobile--fixed">
+    <header class="navbar navbar-mobile navbar-mobile_fixed">
       <div class="container">
         <div class="navbar-top">
-          <a href="index.html" class="logo">
+          <a href="#" class="logo" data-aos="zoom-in" data-aos-duration="700">
             <img
               src="img/horizontal-logo.svg"
               alt="Logo: Best Tour Plan"
@@ -131,7 +134,9 @@
             <p class="hotel-description hotel-info__description">
               We will contact you shortly.
             </p>
-            <a href="index.html"><button class="main">To main</button></a>
+            <form action="index.html">
+              <button class="main">To main</button>
+            </form>
           </div>
         </div>
       </div>
@@ -141,7 +146,7 @@
         <div class="footer-wrapper">
           <a
             class="logo footer__logo"
-            href="#"
+            href="index.html"
             data-aos="zoom-in"
             data-aos-duration="700"
             ><img src="img/vertical-logo.svg" alt="Logo: Best Tour Plan"
@@ -266,7 +271,7 @@
                 <div>
                   <span
                     >Tel (business hours) :
-                    <a class="footer__phone" href="tel:269 1500"
+                    <a class="footer__phone" href="tel:269-1500"
                       >269 1500</a
                     ></span
                   >
