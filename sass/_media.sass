@@ -1,7 +1,7 @@
-@media (min-width: 1200px)
+@media (min-width: 992px)
     .button
         &:hover
-            background-color: #ff0101
+            background-color: #ff0101      
     a
         transition: 0.3s
         &:hover
@@ -10,6 +10,12 @@
         transition: 0.3s
         &:hover
             background-color: #ff0000
+    .footer
+        &__link
+            &-icon
+                &:hover
+                    background-color: $primary
+                    border-radius: 9px
 @media (max-width: 1200px)
     .container
         max-width: 960px
@@ -144,16 +150,9 @@
             grid-row: 4 
             width: 539px
         &-footer
-            grid-template-columns: 2fr 
-            margin-top: 60px
+            margin-top: 57px
             &__info
-                grid-column: 1
-                width: 283px
-                justify-content: space-between
-            &__icons 
-                grid-column: 2
-                width: 136px
-
+                margin: 0
 @media (max-width: 767px)
     .container
         max-width: 576px
@@ -379,13 +378,12 @@
             grid-row: 7
             grid-column: 1
         &-footer
+            flex-wrap: wrap
             margin-top: 30px
-            grid-template-columns: 1fr
-            grid-template-rows: 2 
-            grid-row-gap: 10px 
-            &__icons
-                grid-column: 1
-                grid-row: 2
+            &__info
+                margin-bottom: 10px
+            &__text
+                margin-right: 4px
         &__button
             order: 2
     .modal
@@ -491,6 +489,8 @@
             margin-bottom: 28px 
     .footer
         padding-top: 0
+        &__logo
+            margin-bottom: 5px
         &__title
             &--mb-3
                 margin-top: 10px
@@ -505,7 +505,7 @@
             margin-bottom: 15px
         &-wrapper
             grid-gap: 29px
-            padding-top: 69px
+            padding-top: 64px
         &__social
             &-links
                 margin-top: 22px
