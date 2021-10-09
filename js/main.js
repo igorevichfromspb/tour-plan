@@ -71,6 +71,7 @@ $(document).ready(function () {
       },
       phone: {
         required: "Phone number required",
+        minlength: "Please enter at least 11 characters",
       },
     },
   });
@@ -92,6 +93,7 @@ $(document).ready(function () {
       },
       phone: {
         required: "Phone number required",
+        minlength: "Please enter at least 11 characters",
       },
     },
   });
