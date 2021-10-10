@@ -8,10 +8,10 @@ $(document).ready(function () {
       nextEl: ".swiper-button--next",
       prevEl: ".swiper-button--prev",
     },
-    // keyboard: {
-    //   enabled: true,
-    //   onlyInViewport: false,
-    // },
+    keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+    },
     // autoplay: {
     //   delay: 3000,
     //   pauseOnMouseEnter: true,
